@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1517;
+    color: #FFFF;
+}
+
+header{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1rem; /* Espaçamento interno do nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.login {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+.success-message, .error-message {
+    position: fixed; /* Para centralizar na tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff; /* Cor de fundo destacada */
+    color: #1aa224; /* Cor do texto */
+    padding: 20px 40px; /* Espaço interno */
+    border: 2px solid #1aa224; /* Bordas */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 9999; /* Para garantir que fique acima de outros elementos */
+}
+
+.error-message {
+    background-color: #ffffff; /* Cor de fundo para erros */
+    color: #ff0000; /* Cor do texto para erros */
+    border: 2px solid #ff0000; /* Bordas */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1rem; /* Espaçamento interno do nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.login {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+
+
+
+body {
+    background-color: #1F1517; /* Fundo escuro */
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-container {
+    max-width: 1120px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #2F2223; /* Marrom quase preto, mais claro que o fundo da tela */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #FFF;
+}
+
+thead {
+    background-color: #3E2A22; /* Marrom escuro, mas visível */
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #2F2223; /* Marrom quase preto, igual ao fundo da tabela */
+}
+
+tr:hover {
+    background-color: #3E2A22; /* Tom de marrom um pouco mais claro para o hover */
+}
+
+th {
+    border-bottom: 2px solid #6B4F31; /* Marrom dourado suave para a borda */
+}

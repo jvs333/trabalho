@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1517;
+    color: #FFFF;
+}
+
+header{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.perfil {
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1rem; /* Espaçamento interno do nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+}
+
+.login {
+    color: #FFF2E7;
+    font-weight: 600;
+}
+
+/* Formulário */
+form {
+    width: 350px; /* Diminuindo a largura para 300px */
+    padding: 1rem; /* Ajustando o padding */
+    background-color: #2A1E1F;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form h1 {
+    font-size: 1.4rem;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 1rem;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+/* Estilização dos inputs */
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2F2223;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    height: 2.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #bd8f2c94;
+    box-shadow: 0 0 5px #bd8f2c94;
+}
+
+/* Botão */
+.button.blue {
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    background-color: #bd8f2c94;
+    color: #FFF;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button.blue:hover {
+    background-color: #bd8f2c94;
+    transform: scale(1.05);
+}
+
+.input-field {
+    padding: 16px;
+    height: 3rem;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #2F2223;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+/* Estilos padrão para os inputs */
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin: 1px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Estilos do hover */
+input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input[type="date"]:hover {
+  border-color: #ae704d; /* Altera a cor da borda ao passar o mouse */
+  box-shadow: 0 0 10px rgba(57,38,27,5); /* Adiciona uma sombra ao redor do input */
+}

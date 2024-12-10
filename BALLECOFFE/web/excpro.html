@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Exclusão de produtos</title>
+        <title>Exclusão de usuários</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ESTILIZAÇÃO/excluir.css">
     </head>
     <body>
+        <header>
+            <nav>
+                <span class="logo">Ballecoffee</span>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listapro.jsp">Listagem de usuários</a></li>
+                    <li><a href="altpro.html">Alterar usuário</a></li>  
+                    <li><a href="crud.html">Cadastro</a></li> 
+                </ul>
+                <a class="login" href="perfil.html">Perfil</a>
+            </nav>
+        </header>
+        
         <form method="get" action="excpro.jsp">
-            
-            <label for="cod">Código á excluir:</label>
+            <h1>Código para exclusão:</h1>
             
             <input id="cod" type="number" name="codigo" required>
             

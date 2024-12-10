@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ESTILIZAÇÃO/crud.css">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <span class="logo">Ballecoffee</span>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="listapro.jsp">Listagem de usuários</a></li>
+                    <li><a href="excpro.html">Excluir usuário</a></li>
+                    <li><a href="altpro.html">Alterar usuário</a></li>
+                   
+                </ul>
+                <a class="login" href="perfil.html">Perfil</a>
+            </nav>
+        </header>
+        
+        <form method="post" action="salvar_produtos.jsp">
+            <h1>Cadastro de Usuário</h1>
+            <div class="form-group">
+                <label for="codigo">Código:</label>
+                <input class="input-field" type="text" name="codigo" id="codigo">
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input class="input-field" type="text" name="nome" id="nome" size="50" maxlength="50">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input class="input-field" type="text" name="email" id="email" size="50" maxlength="50">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input class="input-field" type="text" name="telefone" id="telefone" size="13" maxlength="13">
+            </div>
+            <button class="button blue" type="submit">Salvar</button>
+        </form>
+    </body>
+</html>

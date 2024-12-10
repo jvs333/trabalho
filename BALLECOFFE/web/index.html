@@ -1,30 +1,87 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>BALLECOFFE</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="configura.css"/>
-    </head>
-    <body>
-        <header>
-            <h1>BALLECOFFE</h1>
-        </header>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="ESTILIZAÇÃO/index.css">
+</head>
+<body>
+    <header>
+        
         <nav>
-            <a href="cadpro.html" target="centro">Cadastro de produtos</a>
-            <a href="listapro.jsp" target="centro">Listagem de produtos</a>
-            <a href="excpro.html" target="centro">Excluir produtos</a>
-            <a href="altpro.html" target="centro">Alterar produtos</a>
+            <span class="logo">Ballecoffee</span>
+            <ul class="menu">
+                <li><a>Home</a></li>
+                <li><a>Receitas</a></li>
+                <li><a>Novidades</a></li>
+                <li><a>Melhor avaliados</a></li>
+                <a  href="crud.html">Cadastro</a>
+            </ul>
+               <a class="login" href="perfil.html">Perfil</a>
         </nav>
-        <main>
-            <iframe src="apresentacao.html" name="centro"></iframe>
-        </main>
-        <footer>
-            <center>
-                <p>
-                Desenvolvido por: Matheus Gabriel Velasques
-                </p>
-            </center>
-        </footer>
-    </body>
+
+    <main>
+        <div class="principal">
+        <section class="hero">
+            <header class="hero-conteudo">
+            <span class="destaque marrom">Novidade</span>
+            <h1>Encontre a receita perfeita!</h1>
+            <hr/>
+            <h2 class="hero-subtitulo">Explore dezenas de bebidas com os devs ao redor do mundo</h2>
+            </header>
+            <div class="hero-imagens-container">
+            <figure><img src="assets/1.jpg"></figure>
+            <figure><img src="assets/2.jpg"></figure>
+            <figure><img src="assets/3.jpg"></figure>
+            <figure><img src="assets/4.jpg"></figure>
+            <figure><img src="assets/5.jpg"></figure>
+            <figure><img src="assets/6.jpg"></figure>
+            <figure><img src="assets/7.jpg"></figure>
+            <figure><img src="assets/8.jpg"></figure>
+            <figure><img src="assets/9.jpg"></figure>
+            <figure><img src="assets/10.jpg"></figure>
+            <figure><img src="assets/11.jpg"></figure>
+            <figure><img src="assets/12.jpg"></figure>
+            </div>
+        </section>
+
+        </div>
+       
+        
+        
+        
+        
+        <section class="receitas">
+        <header class="receitas-cabecalho">
+            <span class="destaque marrom">Receitas</span>
+            <h2 class="receitas-titulo">Confira nossas receitas</h2>
+            <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas</p>
+        </header>
+        <div class="receitas-card-container">
+            <div class="receitas-card">
+                <header class="receitas-card-cabecalho">
+                    <div class="receitas-card-cabecalho-detalhes">
+                    <span class="destaque-amarelo">Em alta🔥</span>
+                    <h3 class="receita-titulo">Cappucino</h3>
+                    </div>
+                    <p>Extraordinário . 4/4</p>
+                </header>
+                <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                <div>
+                    <img src="assets/173155250.png">
+                    <span>Matheus Gabriel</span>
+                </div>
+            </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright -&lt;CODEFEE/&gt; 2024</p>
+        <p>Feito com muito ❤️ e café!</p>
+    </footer>
+</body>
 </html>
