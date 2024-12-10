@@ -64,77 +64,56 @@ nav {
 
 
 
-/* Formulário */
+/* Estilos para o formulário */
 form {
-    width: 350px; /* Diminuindo a largura para 350px */
-    padding: 1rem; /* Ajustando o padding */
-    background-color: #2A1E1F;
+    background-color: #fff;
+    padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 0 auto; /* Para centralizar o formulário */
 }
 
 form h1 {
-    font-size: 1.4rem;
-    font-family: 'Teko', sans-serif;
-    margin-bottom: 1rem;
-    color: #FFF;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0 1rem;
+    margin-bottom: 20px;
 }
 
-/* Estilização dos inputs */
-form p {
-    margin-bottom: 1rem;
-}
-
-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #FFF;
-    font-weight: 600;
-}
-
-form input[type="number"],
 form input[type="text"],
-form input[type="email"] {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #333;
-    border-radius: 4px;
-    background-color: #2F2223;
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
-    height: 2.5rem;
-}
-
-form input:focus {
-    outline: none;
-    border-color: #bd8f2c94;
-    box-shadow: 0 0 5px #bd8f2c94;
-}
-
-/* Botão */
+form input[type="email"],
+form input[type="number"],
 form input[type="submit"] {
-    font-weight: 600;
-    font-family: Poppins, sans-serif;
-    background-color: #bd8f2c94;
-    color: #FFF;
-    padding: 0.75rem 1.5rem;
-    border: none;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-form input[type="submit"]:hover {
-    background-color: #bd8f2c94;
-    transform: scale(1.05);
+/* Estilos para a notificação */
+.notification {
+    display: none;
+    position: fixed; /* Para centralizar na tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #ffffff;
+    color: #1aa224; /* Cor do texto */
+    border: 2px solid #1aa224; /* Bordas */
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+    width: 300px; /* Tamanho fixo para centralizar melhor */
+    max-width: 90%;
+    transition: opacity 0.3s ease;
+}
+
+.notification.error {
+    background-color: #ffffff; /* Cor de fundo para erros */
+    color: #ff0000; /* Cor do texto para erros */
+    border: 2px solid #ff0000; /* Bordas */
+    border-radius: 10px; /* Bordas arredondadas */
 }

@@ -42,8 +42,8 @@
                 <ul class="menu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="listapro.jsp">Listagem de usuários</a></li>
-                    <li><a href="excpro.html">Excluir usuário</a></li>
                     <li><a href="altpro.html">Alterar usuário</a></li>
+                    <a  href="crud.html">Cadastro</a>
                 </ul>
                 <a class="login" href="perfil.html">Perfil</a>
             </nav>
